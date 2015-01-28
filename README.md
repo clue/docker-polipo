@@ -41,6 +41,8 @@ This is a rather common setup following docker's conventions:
 
 You can now configure your clients (web browser, instant messenger, apt etc.) to use a HTTP proxy:
 
-Type: HTTP Proxy
-Server: 127.0.0.1 (or your public facing IP)
-Port: 8080 (or your chosen {OutsidePort})
+* Type: HTTP Proxy
+* Server: 127.0.0.1 (or your public facing IP)
+* Port: 8080 (or your chosen {OutsidePort})
+
+Some client programs may also expect a proxy URL like `http://127.0.0.1:8080` instead.
